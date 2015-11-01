@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
- <title>jQuery</title>
+ <title>neurpsych</title>
  <meta charset="utf-8" />
  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
@@ -15,11 +15,16 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <script src="js/main.js"></script>    
-<script src="js/videobg.js"></script>    
+<script src="js/videobg.js"></script>
+<script src="js/vide.js"></script>
 </head>
 <body>
 
+<div id="wrapper" data-vide-bg="webm: vidz/brain.webm">
     
+    
+
+</div>
     
 </body>
 </html>
