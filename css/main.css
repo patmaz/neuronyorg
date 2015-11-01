@@ -36,6 +36,25 @@ body {
         
         float:none !important;
         width: 550px;
+        font-size: 30px;
         
     }
+}
+
+.navbar {
+    background: none !important;
+    border: none !important;
+}
+
+.glyphicon-menu-right {
+    float: right;
+    margin-right: 200px;
+}
+
+.row {
+    margin: 0 !important;
+}
+.dropdown-menu {
+    position: relative !important;
+    left: 100% !important;
 }

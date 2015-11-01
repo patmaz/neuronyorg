@@ -18,6 +18,11 @@ jQuery(document).ready( function(){
     
     setBG();
     
-    
+    jQuery(".navbar-nav").hide();
+    jQuery(".navbar-brand").click(function(){
+        
+        jQuery(".navbar-nav").toggle("slide");
+        
+    });
     
 });  

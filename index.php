@@ -25,8 +25,7 @@
     
 <div class="row">
     <div class="col-md-4">
-        <div class="sidebar-nav">
-        <div class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -35,7 +34,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <a class="navbar-brand" href="#">MENU</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -46,7 +45,7 @@
                     <li><a href="#div3">Page 3</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<span class="glyphicon glyphicon-menu-right"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -61,10 +60,9 @@
               </ul>
             </div>
           </div>
-        </div>
+        </nav>
     </div>
-    </div>
-    <div class="col-md-6"></div>
+    <div class="col-md-8"></div>
 </div>
     
 </div>
