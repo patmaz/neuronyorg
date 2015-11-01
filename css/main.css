@@ -17,3 +17,25 @@ body {
     position: absolute;
     
 }
+
+#wrapper2 {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar-nav {
+    
+}
+
+@media (min-width: 768px) {
+        
+    
+.navbar-nav li, .navbar-header{
+        
+        float:none !important;
+        width: 550px;
+        
+    }
+}
