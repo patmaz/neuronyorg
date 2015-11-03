@@ -6,11 +6,11 @@ jQuery(document).ready( function(){
         
         if (jQuery(window).width() > 500){
             
-            jQuery("#wrapper").attr("data-vide-bg", "webm: vidz/brain.webm");
+            jQuery("#wrapper1").attr("data-vide-bg", "webm: vidz/brain.webm");
             
         } else {
             
-            jQuery("#wrapper").attr("data-vide-bg", "poster: img/brain.jpg");
+            jQuery("#wrapper1").attr("data-vide-bg", "poster: img/brain.jpg");
             
         }
 
@@ -18,11 +18,6 @@ jQuery(document).ready( function(){
     
     setBG();
     
-    jQuery(".navbar-nav").hide();
-    jQuery(".navbar-brand").click(function(){
-        
-        jQuery(".navbar-nav").toggle("slide");
-        
-    });
-    
+   
+
 });  

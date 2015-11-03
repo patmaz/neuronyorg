@@ -7,6 +7,8 @@
  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
  
 <link rel="stylesheet" href="css/main.css" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
@@ -19,12 +21,10 @@
 </head>
 <body>
 
-<div id="wrapper" data-vide-bg="">    
-<div id="wrapper2">
+
     
-    
-<div class="row">
-    <div class="col-md-4">
+<div class="row" id="wrapper1" data-vide-bg="">
+    <div class="col-sm-3">
         <nav class="navbar navbar-inverse">
           <div class="container">
             <div class="navbar-header">
@@ -34,7 +34,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">MENU</a>
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" class="hidden-xs">
+                <span class="visible-xs">LOGO</span>
+                </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -45,15 +48,11 @@
                     <li><a href="#div3">Page 3</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<span class="glyphicon glyphicon-menu-right"></span></a>
-                        <ul class="dropdown-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                        <ul class="dropdown-menu">                     
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
                             <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
                         </ul>
                     </li>
                 
@@ -62,11 +61,22 @@
           </div>
         </nav>
     </div>
-    <div class="col-md-8"></div>
-</div>
+    <div class="col-sm-9">
     
+        <section id="intro">
+        
+            <p>neuro<br>stuff<br>website</p>
+        </section>
+        
+    </div>
 </div>
+
+<div id="skewSeparator"></div>
+
+<div class="row">
+    <section id="intro">
+        <p>neuro<br>stuff<br>website</p>
+    </section>
 </div>
-    
 </body>
 </html>
