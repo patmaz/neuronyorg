@@ -15,7 +15,7 @@ a, li {
     outline: none !important; 
 }
 
-#wrapper1 {
+#wrapper1, #wrapper2, #wrapper3, #wrapper4 {
     
     width: 100% !important;
     height: 100vh !important;
@@ -23,10 +23,68 @@ a, li {
     
 }
 
+#wrapper2{
+    
+    background-color: #0D0D0D;
+    position: relative;
+    top: -56px;
+    
+}
+
+#wrapper3{
+    
+    background-color: #282828;
+    position: relative;
+    top: -65px;
+    
+}
+
+#wrapper4{
+    
+    background-color: #434343;
+    position: relative;
+    top: -70px;
+    
+}
+
+#triangle-bottom{
+    
+    position: relative;
+    top: -50px;
+    
+}
+
+#curve-bottom{
+    
+    background-color: #282828;
+    position: relative;
+    top: -60px;
+    
+}
+
+#diagonal-bottom{
+    
+    background-color: #282828;
+    position: relative;
+    top: -65px;
+    
+}
+
+footer{
+    
+    width: 100% !important;
+    height: 10vh;
+    background-color: darkslategrey;
+    font-family: 'Roboto', sans-serif;
+    color: darkgray;
+    text-align: center;
+    
+}
+
 #intro{
     
     font-family: 'Work Sans', sans-serif;
-    font-size: 23vmin;
+    font-size: 20vmin;
     color: black;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
@@ -34,6 +92,19 @@ a, li {
     line-height: 0.6;
     
 }
+
+.title{
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15vmin;
+    color: dimgrey;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+    margin-top: 15vh;
+    line-height: 0.6;
+    
+}
+
 
 @media (min-width: 768px) {
         
@@ -168,16 +239,5 @@ a, li {
 .container{
     
         width: 100% !important;
-    
-}
-
-#skewSeparator{
-    
-    width: 100% !important;
-    height: 100px;
-    background-color: white;
-    transform: skewY(-3deg);
-    position: relative;
-    top: -20px;
     
 }

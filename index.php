@@ -41,14 +41,14 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                    <li><a href="#div1">Page 1</a>
+                    <li><a href="#div1">software</a>
                     </li>
-                    <li><a href="#div2">Page 2</a>
+                    <li><a href="#div2">papiery</a>
                     </li>
-                    <li><a href="#div3">Page 3</a>
+                    <li><a href="#div3">about</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">dropdwn</a>
                         <ul class="dropdown-menu">                     
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -71,12 +71,45 @@
     </div>
 </div>
 
-<div id="skewSeparator"></div>
+<svg id="triangle-bottom" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspectRatio="none" width="100%" height="50">
 
-<div class="row">
-    <section id="intro">
-        <p>neuro<br>stuff<br>website</p>
+  <polygon points="0,0  500,100  1000,0 1000,100 0,100 "
+         style="fill:#0D0D0D;"/>
+</svg>
+
+
+<div class="row" id="wrapper2">
+    <section class="title">
+        <p>software</p>
     </section>
 </div>
+    
+<svg id="curve-bottom" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="none" width="100%" height="100">
+
+  <path d="M0 0 C 20 80 40 100 100 0 Z" style="fill:#0D0D0D;"/>
+
+</svg>
+    
+<div class="row" id="wrapper3">
+    <section class="title">
+        <p>paper<br>stuff</p>
+    </section>
+</div>
+    
+<svg id="diagonal-bottom" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspectRatio="none" width="100%" height="50">
+
+  <polygon points="0,0  1000,100 0,100 "
+         style="fill:#434343;"/>
+</svg>
+    
+<div class="row" id="wrapper4">
+    <section class="title">
+        <p>about<br>authorz</p>
+    </section>
+</div>
+<footer>amazing fuckin' footer</footer>
 </body>
 </html>
