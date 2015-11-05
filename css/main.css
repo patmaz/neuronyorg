@@ -1,7 +1,6 @@
 html{
     
     height: 100%;
-    
 }
 
 body {
@@ -15,17 +14,30 @@ a, li {
     outline: none !important; 
 }
 
+.descr{
+    
+    font-size: 2vmin;
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+    border-top: 1px #FFC107 solid;
+    
+}
+
 #wrapper1, #wrapper2, #wrapper3, #wrapper4 {
     
     width: 100% !important;
-    height: 100vh !important;
+    min-height: 100vh !important;
     
+}
+
+#wrapper1{
     
+    background-color: rgba(54, 52, 50, 0.7);    
 }
 
 #wrapper2{
     
-    background-color: #0D0D0D;
+    background-color: #1d2120;
     position: relative;
     top: -56px;
     
@@ -33,7 +45,7 @@ a, li {
 
 #wrapper3{
     
-    background-color: #282828;
+    background-color: #262216;
     position: relative;
     top: -65px;
     
@@ -41,7 +53,7 @@ a, li {
 
 #wrapper4{
     
-    background-color: #434343;
+    background-color: #1d2120;
     position: relative;
     top: -70px;
     
@@ -56,7 +68,7 @@ a, li {
 
 #curve-bottom{
     
-    background-color: #282828;
+    background-color: #262216;
     position: relative;
     top: -60px;
     
@@ -64,7 +76,7 @@ a, li {
 
 #diagonal-bottom{
     
-    background-color: #282828;
+    background-color: #262216;
     position: relative;
     top: -65px;
     
@@ -73,7 +85,7 @@ a, li {
 footer{
     
     width: 100% !important;
-    height: 10vh;
+    height: 13vh;
     background-color: darkslategrey;
     font-family: 'Roboto', sans-serif;
     color: darkgray;
@@ -84,12 +96,13 @@ footer{
 #intro{
     
     font-family: 'Work Sans', sans-serif;
-    font-size: 20vmin;
-    color: black;
+    font-size: 15vw;
+    color: #FFC107;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
     margin-top: 15vh;
     line-height: 0.6;
+    padding-bottom: 3px;
     
 }
 
@@ -97,14 +110,26 @@ footer{
     
     font-family: 'Work Sans', sans-serif;
     font-size: 15vmin;
-    color: dimgrey;
+    color: #FFC107;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
     margin-top: 15vh;
+    margin-bottom: 2vh;
     line-height: 0.6;
     
 }
 
+#logoSmall{
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    line-height: 0.6;
+    padding-bottom: 1px;
+    
+    }
 
 @media (min-width: 768px) {
         
@@ -120,16 +145,17 @@ footer{
         height: 16vh !important;
         
     }
-    .navbar-brand img{
-        
-       width: 20vh;
-        
-    }
     
-    #navbar{
-        
-        
-        
+    #logoSmall{
+    
+        font-family: 'Work Sans', sans-serif;
+        font-size: 5vh;
+        color: black;
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+        line-height: 0.6;
+        padding-bottom: 1px;
+    
     }
     
     .navbar-nav li{
@@ -143,7 +169,8 @@ footer{
     
     .navbar-nav a:hover{
         
-        background: rgba(3, 5, 7, 1) !important;
+        color: black !important;
+        background-color: #FFC107 !important;
         
     }
     
@@ -156,7 +183,7 @@ footer{
         text-align: center;
         font-size: 3vh;
         font-family: 'Roboto', sans-serif;
-        color: dimgrey !important;
+        color: #FFC107 !important;
         line-height: 12vh !important;
         background: rgba(3, 5, 7, 0.7) !important;
         
@@ -167,8 +194,47 @@ footer{
         border: none !important;
     }
 
-   
-
+    .navAppearScroll{
+        
+        z-index: 10;
+        width: 768px !important;
+        height: 5vh !important;
+    }
+    
+    
+    .navAppearScroll #logoSmall{
+        
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2vh;
+        color: black;
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+        line-height: 0.6;
+        padding-bottom: 1px;
+        
+    }
+    
+    .navAppearScroll .navbar-header, .navAppearScroll .navbar-nav li{
+        
+        float: left !important;
+        
+    }
+    
+    .navAppearScroll .navbar-nav li a{
+        
+        width: 10vh;
+        height: 1.5vh;
+        border: 1px gray solid;
+        border-radius: 0;
+        text-align: center;
+        font-size: 1.5vh;
+        font-family: 'Roboto', sans-serif;
+        color: #FFC107 !important;
+        line-height: 0.5vh !important;
+        background: rgba(3, 5, 7, 0.9) !important;
+        
+    }
+    
     .dropdown-menu {
         
         background: none !important;
@@ -230,6 +296,17 @@ footer{
         
     }
     
+}
+
+.sectionDescr{
+
+    padding-bottom: 5vh !important;
+    
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+    margin: auto;
 }
 
 .row {

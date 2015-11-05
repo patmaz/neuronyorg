@@ -35,8 +35,9 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">
-                <img src="img/logo.png" class="hidden-xs">
-                <span class="visible-xs">LOGO</span>
+                <div id="logoSmall">
+                <span>neuro<br>stuff<br>website</span>
+                    </div>
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -75,7 +76,7 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspectRatio="none" width="100%" height="50">
 
   <polygon points="0,0  500,100  1000,0 1000,100 0,100 "
-         style="fill:#0D0D0D;"/>
+         style="fill:#1d2120;"/>
 </svg>
 
 
@@ -83,12 +84,91 @@ xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspect
     <section class="title">
         <p>software</p>
     </section>
+
+<section class="row sectionDescr">
+    <div class="col-sm-5 col-sm-offset-1"> 
+        <p class="descr">cdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdc cdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdc</p>
+    
+    </div>
+<div class="col-sm-5">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://i.dailymail.co.uk/i/pix/2014/09/24/1411575942262_wps_55_Bright_blue_brain_3D_illu.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://thejointblog.com/wp-content/uploads/2015/02/brain.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+</section>    
+<section class="row sectionDescr">
+    <div class="col-sm-5 col-sm-offset-1"> 
+        <p class="descr">cdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdc cdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdc</p>
+    
+    </div>
+<div class="col-sm-5">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://i.dailymail.co.uk/i/pix/2014/09/24/1411575942262_wps_55_Bright_blue_brain_3D_illu.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://thejointblog.com/wp-content/uploads/2015/02/brain.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+</section>
 </div>
     
 <svg id="curve-bottom" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="none" width="100%" height="100">
 
-  <path d="M0 0 C 20 80 40 100 100 0 Z" style="fill:#0D0D0D;"/>
+  <path d="M0 0 C 20 80 40 100 100 0 Z" style="fill:#1d2120;"/>
 
 </svg>
     
@@ -102,7 +182,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspect
 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspectRatio="none" width="100%" height="50">
 
   <polygon points="0,0  1000,100 0,100 "
-         style="fill:#434343;"/>
+         style="fill:#1d2120;"/>
 </svg>
     
 <div class="row" id="wrapper4">
