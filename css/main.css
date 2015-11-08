@@ -18,44 +18,24 @@ a, li {
     
     font-size: 2vmin;
     font-family: 'Roboto', sans-serif;
-    color: azure;
-    border-top: 1px #FFC107 solid;
+    color: #222222;
+    border-top: 1px #1aa0d4 solid;
     
 }
 
-#wrapper1, #wrapper2, #wrapper3, #wrapper4 {
+#wrapper1, #wrapper2, #wrapper3, #wrapper4, #wrapper5 {
     
     width: 100% !important;
     min-height: 100vh !important;
+    background-color: #ffffff ;
     
 }
 
 #wrapper1{
     
-    background-color: rgba(54, 52, 50, 0.7);    
-}
-
-#wrapper2{
-    
-    background-color: #1d2120;
-    position: relative;
-    top: -56px;
-    
-}
-
-#wrapper3{
-    
-    background-color: #262216;
-    position: relative;
-    top: -65px;
-    
-}
-
-#wrapper4{
-    
-    background-color: #1d2120;
-    position: relative;
-    top: -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(3, 3, 3, 0.5);
     
 }
 
@@ -68,17 +48,15 @@ a, li {
 
 #curve-bottom{
     
-    background-color: #262216;
-    position: relative;
-    top: -60px;
+    background-color: #ffffff;
+
     
 }
 
 #diagonal-bottom{
     
-    background-color: #262216;
-    position: relative;
-    top: -65px;
+    background-color: #ffffff;
+
     
 }
 
@@ -86,10 +64,17 @@ footer{
     
     width: 100% !important;
     height: 13vh;
-    background-color: darkslategrey;
+    background-color: black;
     font-family: 'Roboto', sans-serif;
     color: darkgray;
     text-align: center;
+    
+}
+
+footer img{
+    
+    height: 8vh !important;
+    margin: auto;
     
 }
 
@@ -97,7 +82,7 @@ footer{
     
     font-family: 'Work Sans', sans-serif;
     font-size: 15vw;
-    color: #FFC107;
+    color: #1aa0d4;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
     margin-top: 15vh;
@@ -110,30 +95,26 @@ footer{
     
     font-family: 'Work Sans', sans-serif;
     font-size: 15vmin;
-    color: #FFC107;
+    color: #1aa0d4;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
+    box-shadow: 0 0 5px black;
+    background-color: #333333;
     margin-top: 15vh;
     margin-bottom: 2vh;
     line-height: 0.6;
     
 }
 
-#logoSmall{
+#logoSmall img{
     
-    font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
-    color: black;
-    border-top: 1px black solid;
-    border-bottom: 1px black solid;
-    line-height: 0.6;
-    padding-bottom: 1px;
+        width: 15vw;
     
     }
 
 @media (min-width: 768px) {
-        
     
+        
     .navbar-nav li, .navbar-header{
         
         float: none !important;
@@ -146,15 +127,9 @@ footer{
         
     }
     
-    #logoSmall{
+    #logoSmall img{
     
-        font-family: 'Work Sans', sans-serif;
-        font-size: 5vh;
-        color: black;
-        border-top: 1px black solid;
-        border-bottom: 1px black solid;
-        line-height: 0.6;
-        padding-bottom: 1px;
+        width: 16vw;
     
     }
     
@@ -170,7 +145,21 @@ footer{
     .navbar-nav a:hover{
         
         color: black !important;
-        background-color: #FFC107 !important;
+        background-color: #1aa0d4 !important;
+        
+    }
+    
+    .nav > li > a:focus{
+        
+        background-color: rgba(3, 5, 7, 0.7) !important;
+        color: #9d9d9d !important;
+        
+    }
+    
+    .nav > li > a:hover{
+        
+        background-color: #1aa0d4 !important;
+        color: black !important;
         
     }
     
@@ -180,12 +169,13 @@ footer{
         height: 16vh;
         border: 1px gray solid;
         border-radius: 50%;
+        box-shadow: 0 0 3px black;
         text-align: center;
         font-size: 3vh;
         font-family: 'Roboto', sans-serif;
-        color: #FFC107 !important;
+        color: #9d9d9d;
         line-height: 12vh !important;
-        background: rgba(3, 5, 7, 0.7) !important;
+        background-color: rgba(3, 5, 7, 0.7);
         
     }
     
@@ -196,21 +186,22 @@ footer{
 
     .navAppearScroll{
         
-        z-index: 10;
-        width: 768px !important;
-        height: 5vh !important;
+        z-index: 20;
+        width: 100%;
+        height: 6vh !important;
+        background-color: black !important;
     }
     
     
-    .navAppearScroll #logoSmall{
+    .navAppearScroll #logoSmall img{
         
-        font-family: 'Work Sans', sans-serif;
-        font-size: 2vh;
-        color: black;
-        border-top: 1px black solid;
-        border-bottom: 1px black solid;
-        line-height: 0.6;
-        padding-bottom: 1px;
+        width: 6vw;
+        
+    }
+    
+    .navAppearScroll #logoSmall {
+        
+        background-color: #1aa0d4;
         
     }
     
@@ -224,16 +215,24 @@ footer{
         
         width: 10vh;
         height: 1.5vh;
-        border: 1px gray solid;
+        border: 0px;
         border-radius: 0;
         text-align: center;
         font-size: 1.5vh;
         font-family: 'Roboto', sans-serif;
-        color: #FFC107 !important;
+        color: azure !important;
         line-height: 0.5vh !important;
-        background: rgba(3, 5, 7, 0.9) !important;
+        background-color: black !important;
         
     }
+    
+    .active > a,
+    .active > a:hover {
+        border-bottom: 1px solid #1aa0d4 !important;
+        background-color: black !important;
+        color: azure !important;
+        
+}
     
     .dropdown-menu {
         
@@ -288,12 +287,6 @@ footer{
     0%   {left:-500px;}
     50%  {left:200px;}
     100% {left:0px;}
-    }
-    
-    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
-        
-        background: none !important;
-        
     }
     
 }
