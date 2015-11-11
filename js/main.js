@@ -1,21 +1,38 @@
 jQuery.noConflict(); 
 jQuery(document).ready( function(){ 
 
+    var mobileDetection = false;
+    if (navigator.userAgent.match(/Android/i)
+		 || navigator.userAgent.match(/webOS/i)
+		 || navigator.userAgent.match(/iPhone/i)
+		 || navigator.userAgent.match(/iPad/i)
+		 || navigator.userAgent.match(/iPod/i)
+		 || navigator.userAgent.match(/BlackBerry/i)
+		 || navigator.userAgent.match(/Windows Phone/i)
+    ){
+        
+        mobileDetection = true;
+        
+    } else {
+        
+        mobileDetection = false;
+        
+    };
     
     function setBG(){
         
-        if (jQuery(window).width() >= 768){
+        if (jQuery(window).width() >= 768 && mobileDetection == false){
             
-            jQuery("#wrapper1").attr("data-vide-bg", "webm: vidz/brain.webm");
+            jQuery("#wrapper1").attr("data-vide-bg", "webm: vidz/brain.webm, mp4: vidz/brain.mp4, poster: img/brain.jpg");
             
         } else {
             
-            jQuery("#wrapper1").attr("data-vide-bg", "poster: img/brain.jpg");
+            jQuery("#wrapper1").attr("data-vide-bg", "");
             
             
-        }
+        };
 
-    }
+    };
     
     setBG();
     
@@ -36,20 +53,25 @@ jQuery(document).ready( function(){
     
     
     var backgroundBig = "url(img/logobg2.svg)";
-    var backgroundSmall = "url(img/logobg2.svg)";
+    var backgroundSmall = "url(img/logo2down.svg)";
+    var backgroundSmallVertical = "url(img/logo2v.svg)"
     function logoBG(){
         
         var windowWidth = jQuery(window).width();
         var windowHeight = jQuery(window).height();
         var windowRatio = windowWidth / windowHeight;
         
-        if (windowWidth <= 700 || windowRatio <= 1){
+        if (windowWidth <= 768){
             
-            jQuery("#wrapper1").css({"background-image": backgroundSmall});
+            jQuery("#wrapper1").css({"background-image": backgroundSmall, "background-size": "100%", "background-position": "center center"});
             
+        } else if(windowWidth > 768 && windowRatio <= 1) {
+            
+            jQuery("#wrapper1").css({"background-image": backgroundSmallVertical, "background-size": "contain", "background-position": "center top"});
+        
         } else {
             
-            jQuery("#wrapper1").css({"background-image": backgroundBig});
+            jQuery("#wrapper1").css({"background-image": backgroundBig, "background-size": "cover", "background-position": "center top"});
         
         };
         
@@ -61,29 +83,33 @@ jQuery(document).ready( function(){
     jQuery("#wrap2link").click(function( event ){
         
         event.preventDefault();
-        jQuery(window).scrollTo(jQuery('#wrapper2'), 800, {offset:1});
+        jQuery(window).scrollTo(jQuery('#wrapper2'), 800, {offset:20});
         
     });
     
     jQuery("#wrap3link").click(function( event ){
         
         event.preventDefault();
-        jQuery(window).scrollTo(jQuery('#wrapper3'), 800, {offset:1});
+        jQuery(window).scrollTo(jQuery('#wrapper3'), 800, {offset:20});
         
     });
     
     jQuery("#wrap4link").click(function( event ){
         
         event.preventDefault();
-        jQuery(window).scrollTo(jQuery('#wrapper4'), 800, {offset:1});
+        jQuery(window).scrollTo(jQuery('#wrapper4'), 800, {offset:20});
         
     });
     
     jQuery("#wrap5link").click(function( event ){
         
         event.preventDefault();
-        jQuery(window).scrollTo(jQuery('#wrapper5'), 800, {offset:1});
+        jQuery(window).scrollTo(jQuery('#wrapper5'), 800, {offset:20});
         
     });
     
-});  
+    jQuery(".navbar-nav li a").click(function(event) {
+        jQuery(".navbar-collapse").collapse('hide');
+    });
+    
+}); 

@@ -1,12 +1,22 @@
+<!DOCTYPE HTML>
 <html>
 <head>
- <title>neurony.org</title>
- <meta charset="utf-8" />
- <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<title>neurony.org</title>
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="Strona internetowa poświęcona rehabilitacji neuropsychologicznej">
+<meta name="keywords" content="neuropsychologia, neuropsychologia kliniczna, rehabilitacja, neurorehabilitacja, sklep, programy, materiały, terapeuci, udar, uraz czaszkowo-mózgowy, TBI, afazja, pamięć, amnezja, neglect, zaniedbywanie, uwaga, percepcja">
+<meta name="author" content="patmaz | cogcoding.com">
+    
+<link rel="shortcut icon" href="img/n.ico" />
+
+<meta name="robots" content="index, follow" />
+    
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
  
 <link rel="stylesheet" href="css/main.css" type="text/css" />
-<link href='https://fonts.googleapis.com/css?family=Work+Sans:900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -78,7 +88,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspect
 <section class="row sectionDescr">
     <!-- description -->
     <div class="col-sm-5 col-sm-offset-1"> 
-        <p class="descr">żźćęłóśą cdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdc cdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdc</p>
+        <p class="descr">W tym dziale już wkrótce znajdą Państwo materiały wspomagające rehabilitację neuropsychologiczną.</p>
     
     </div>
 <div class="col-sm-5">
@@ -92,12 +102,12 @@ xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspect
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="http://i.dailymail.co.uk/i/pix/2014/09/24/1411575942262_wps_55_Bright_blue_brain_3D_illu.jpg" alt="...">
+      <img src="img/brain.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
     <div class="item">
-      <img src="http://thejointblog.com/wp-content/uploads/2015/02/brain.jpg" alt="...">
+      <img src="img/brain.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
@@ -115,46 +125,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspect
 </div>
     </div>
 </section>    
-<section class="row sectionDescr">
-    <!-- description -->
-    <div class="col-sm-5 col-sm-offset-1"> 
-        <p class="descr">cdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdc cdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdccdhbchdbch dscds sdcsdc sdcsdc sdcsdc sdcsdc sdcsdc</p>
-    
-    </div>
-<div class="col-sm-5">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="http://i.dailymail.co.uk/i/pix/2014/09/24/1411575942262_wps_55_Bright_blue_brain_3D_illu.jpg" alt="...">
-      <div class="carousel-caption">
-      </div>
-    </div>
-    <div class="item">
-      <img src="http://thejointblog.com/wp-content/uploads/2015/02/brain.jpg" alt="...">
-      <div class="carousel-caption">
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-</section>
 </div>
 
 <!-- MATERIAŁY end -->
@@ -176,6 +147,47 @@ xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspect
     <h1 class="title">
         <p>programy</p>
     </h1>
+    
+<section class="row sectionDescr">
+    <!-- description -->
+    <div class="col-sm-5 col-sm-offset-1"> 
+        <p class="descr">Tutaj uzyskacie Państwo dostęp do programów komputerowych adresowanych do pacjentów z zaburzeniami neuropsychologicznymi oraz ich rodzin.</p>
+    
+    </div>
+<div class="col-sm-5">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/brain.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/brain.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+</section>  
 </div>
 
 <!-- PROGRAMY end -->
@@ -191,6 +203,48 @@ xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspect
     <h1 class="title">
         <p>usługi</p>
     </h1>
+    
+<section class="row sectionDescr">
+    <!-- description -->
+    <div class="col-sm-5 col-sm-offset-1"> 
+        <p class="descr">Szczególnie we wczesnej fazie po zachorowaniu, ważna jest rehabilitacja pod okiem specjalisty. W tym miejscu umożliwimy Państwu kontakt ze sprawdzonymi terapeutami.</p>
+    
+    </div>
+<div class="col-sm-5">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/brain.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/brain.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+</section>  
+    
 </div>
     
 <!-- USŁUGI end -->
@@ -206,6 +260,47 @@ xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspect
     <h1 class="title">
         <p>o nas</p>
     </h1>
+    
+<section class="row sectionDescr">
+    <!-- description -->
+    <div class="col-sm-5 col-sm-offset-1"> 
+        <p class="descr">W tym miejscu napiszemy o tym, kto tworzy neurony.org :)</p>
+    
+    </div>
+<div class="col-sm-5">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/brain.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/brain.jpg" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+</section>  
 </div>
     
 <footer class="row">

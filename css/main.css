@@ -1,3 +1,16 @@
+@keyframes menuAppear {
+    0%   {left:-500px;}
+    50%  {left:200px;}
+    100% {left:0px;}
+    }
+
+@-webkit-keyframes menuAppear {
+    0%   {left:-500px;}
+    50%  {left:200px;}
+    100% {left:0px;}
+    }
+
+
 html{
     
     height: 100%;
@@ -34,7 +47,6 @@ a, li {
 #wrapper1{
     
     background-repeat: no-repeat;
-    background-size: cover;
     background-color: rgba(3, 3, 3, 0.5);
     
 }
@@ -43,20 +55,6 @@ a, li {
     
     position: relative;
     top: -50px;
-    
-}
-
-#curve-bottom{
-    
-    background-color: #ffffff;
-
-    
-}
-
-#diagonal-bottom{
-    
-    background-color: #ffffff;
-
     
 }
 
@@ -101,18 +99,44 @@ footer img{
     box-shadow: 0 0 5px black;
     background-color: #333333;
     margin-top: 15vh;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
     line-height: 0.6;
     
 }
 
-#logoSmall img{
+
+@media (max-width: 767px) {
+    .navbar {
+        position: fixed !important;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 30;
+    }
     
-        width: 15vw;
+    .descr{
+    
+        font-size: 25px;
     
     }
+    
+    #logoSmall img{
+    
+        width: 150px;
+    
+    }
+    
+    #wrapper1, #wrapper2, #wrapper3, #wrapper4, #wrapper5 {
+    
+        width: 100% !important;
+        min-height: 400px !important;
+        background-color: #ffffff ;
+    
+    }
+}
 
 @media (min-width: 768px) {
+    
     
         
     .navbar-nav li, .navbar-header{
@@ -130,6 +154,7 @@ footer img{
     #logoSmall img{
     
         width: 16vw;
+        height: 15vh;
     
     }
     
@@ -139,6 +164,7 @@ footer img{
         position: relative;
         left: -500px;
         animation: menuAppear 2s ease-out forwards;
+        -webkit-animation: menuAppear 2s ease-out forwards;
         
     }
     
@@ -196,6 +222,7 @@ footer img{
     .navAppearScroll #logoSmall img{
         
         width: 6vw;
+        height: 4vh;
         
     }
     
@@ -283,11 +310,7 @@ footer img{
         
     }
     
-    @keyframes menuAppear {
-    0%   {left:-500px;}
-    50%  {left:200px;}
-    100% {left:0px;}
-    }
+    
     
 }
 
