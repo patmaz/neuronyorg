@@ -1,6 +1,8 @@
 jQuery.noConflict(); 
 jQuery(document).ready( function(){ 
 
+    jQuery(this).scrollTop(0);
+    
     var mobileDetection = false;
     if (navigator.userAgent.match(/Android/i)
 		 || navigator.userAgent.match(/webOS/i)
@@ -27,7 +29,7 @@ jQuery(document).ready( function(){
             
         } else {
             
-            jQuery("#wrapper1").attr("data-vide-bg", "");
+            jQuery("#wrapper1").attr("data-vide-bg", "poster: img/brain.jpg");
             
             
         };
@@ -65,7 +67,7 @@ jQuery(document).ready( function(){
             
             jQuery("#wrapper1").css({"background-image": backgroundSmall, "background-size": "100%", "background-position": "center center"});
             
-        } else if(windowWidth > 768 && windowRatio <= 1) {
+        } else if(windowWidth > 768 && windowRatio <= 1.2) {
             
             jQuery("#wrapper1").css({"background-image": backgroundSmallVertical, "background-size": "contain", "background-position": "center top"});
         
@@ -111,5 +113,41 @@ jQuery(document).ready( function(){
     jQuery(".navbar-nav li a").click(function(event) {
         jQuery(".navbar-collapse").collapse('hide');
     });
+    
+    // test
+    if (navigator.userAgent.match(/Firefox/i) && jQuery(window).width() > 768){
+        
+        function test(){
+            jQuery("#type").position({
+
+                my: "left bottom",
+                at: "left bottom",
+                of: "#firstDiv"
+
+            });
+        };
+    
+        test();
+        jQuery(window).resize(test);
+    
+        jQuery(
+
+            setInterval(function(){
+
+            jQuery('#type').t(
+
+                'neurony.org to miejsce agregujące zasoby związane z rehabilitacją neuropsychologiczną.<br><ins>2</ins><br>Książki, programy i inne materiały wpomagające rehabilitację. Oferujemy także diagnostykę i rehabilitację z dojazdem do Pacjenta, na terenie Warszawy.<br><ins>3</ins>',{speed:60,speed_vary:true,fin:function(){
+                    
+                    jQuery(this).empty();
+                    
+                    jQuery('#type').t(
+
+                        '<span style="margin-left:40%; font-size: 2vh;">afazja</span><br><span style="margin-left:10%; font-size: 2vh;">amnezja</span><br><span style="margin-left:30%; font-size: 2vh;">zaburzenia uwagi</span><br><span style="margin-left:32%; font-size: 2vh;">zespół zaniedbywania</span><br><span style=" margin-left:5%; font-size: 2vh;">agnozja</span><br><span style="margin-left:25%; font-size: 2vh;">dysfunkcje wykonawcze</span><ins>10</ins>',{speed:60,speed_vary:false});
+                    
+                }});
+
+            }, 3000));
+        
+    };
     
 }); 

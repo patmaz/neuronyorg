@@ -29,6 +29,11 @@
     
 <script src="js/main.js"></script>    
 <script src="js/vide.js"></script>
+    
+<!-- test -->    
+<script src="http://mn.tn/dev/t.js/t.js"></script>
+<!-- test --> 
+
 </head>
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="0">
 
@@ -66,8 +71,10 @@
           </div>
         </nav>
     </div>
-    <div class="col-sm-9">
-    
+    <div id="firstDiv" class="col-sm-9">
+        <div id="type">
+        
+        </div>
     </div>
 </div>
 
