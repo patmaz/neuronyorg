@@ -1,0 +1,159 @@
+/* animation for main menu */
+@keyframes menuAppear {
+    0%   {left:-500px;}
+    50%  {left:200px;}
+    100% {left:0px;}
+    }
+
+@-webkit-keyframes menuAppear {
+    0%   {left:-500px;}
+    50%  {left:200px;}
+    100% {left:0px;}
+    }
+
+/* animation for top menu - appears after scroll - js */
+@keyframes navAppear {
+    0%   {opacity:0.0}
+    100% {opacity:1}
+    }
+
+@-webkit-keyframes navAppear {
+    0%   {opacity:0.0}
+    100% {opacity:1}
+    }
+
+@media (min-width: 768px) {
+    
+/* main menu */
+    .navbar-nav li, .navbar-header{  
+        float: none;
+    }
+    
+    .navbar-brand{
+        height: 16vh;
+    }
+    
+    #logoSmall img{
+        width: 16vw;
+        height: 15vh;
+    }
+    
+    /* menu items */
+    .navbar-nav li{
+        margin-top: 2vh;
+        position: relative; /* starting positions */
+        left: -500px;
+        animation: menuAppear 2s ease-out forwards; /* animation */
+        -webkit-animation: menuAppear 2s ease-out forwards;
+    }
+    
+    .navbar-nav a:hover{
+        color: black !important;
+        background-color: #1aa0d4 !important;
+    }
+
+    /* don't change color after click */
+    .nav > li > a:focus{
+        background-color: rgba(3, 5, 7, 0.7) !important;
+        color: #9d9d9d !important;
+    }
+    
+    /* menu circles */
+    .navbar-nav li a{
+        width: 16vh;
+        height: 16vh;
+        border: 1px gray solid;
+        border-radius: 50%;
+        box-shadow: 0 0 3px black;
+        text-align: center;
+        font-size: 3vh;
+        font-family: 'Roboto', sans-serif;
+        color: #9d9d9d;
+        line-height: 12vh;
+        background-color: rgba(3, 5, 7, 0.7);
+    }
+    
+    /* override bootstrap defaults */
+    .navbar {
+        background: none;
+        border: none;
+    }
+
+/* menu bar after scroll - attached by js */
+    .navAppearScroll{
+        z-index: 20;
+        width: 100%;
+        height: 6vh;
+        background-color: black;
+        opacity: 0.0;
+        animation: navAppear 1s ease-out forwards;
+        -webkit-animation: navAppear 1s ease-out forwards;
+    }
+    
+    
+    .navAppearScroll #logoSmall img{
+        width: 8vw;
+        height: 3vh;
+    }
+    
+    .navAppearScroll #logoSmall {
+        background-color: #1aa0d4;
+    }
+    
+    .navAppearScroll .navbar-header, .navAppearScroll .navbar-nav li{
+        float: left;
+    }
+    
+    /* no animation for menu items !!! */
+    .navAppearScroll .navbar-nav li{
+        position: relative;
+        left: 0px;
+        animation: none;
+        -webkit-animation: none;
+    }
+    
+    /* override other styles from main menu */
+    .navAppearScroll .navbar-nav li a{
+        width: 20vw;
+        height: 2vh;
+        border: 0px;
+        border-radius: 0;
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Roboto', sans-serif;
+        color: azure !important;
+        line-height: 0.5vh;
+        background-color: black !important;
+    }
+    
+    /* styles for scrollspy */
+    .active > a,
+    .active > a:hover{
+        border-bottom: 1px solid #1aa0d4 !important;
+        background-color: black !important;
+        color: azure !important;
+    }
+
+/* END menu bar after scroll - attached by js */
+    
+    /* main menu animation delay */
+    .navbar-nav li:nth-child(1){
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+    
+    .navbar-nav li:nth-child(2){
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+    }
+    
+    .navbar-nav li:nth-child(3){ 
+        -webkit-animation-delay: 0.4s; 
+        animation-delay: 0.4s;
+    }
+    
+    .navbar-nav li:nth-child(4){
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+    }
+}
