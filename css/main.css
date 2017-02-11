@@ -14,11 +14,7 @@ a, li {
 
 /* section with description */
 .sectionDescr{
-    padding-bottom: 5vh;   
-}
-
-/* style for descriptions */
-.descr{
+    padding-bottom: 5vh;
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     color: #222222;
@@ -93,7 +89,7 @@ h2{
     }
     
     /* description */
-    .descr{
+    .sectionDescr{
         font-size: 1.5em;
     }
     
